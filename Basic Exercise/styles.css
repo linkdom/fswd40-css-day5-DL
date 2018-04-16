@@ -1,0 +1,88 @@
+/*This Tag is for everything on the page! I use it to delete all margins and paddings as well as to set a font for the whole page*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*Define the size of the wrapper*/
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+/*Define the header size and background*/
+
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: #333399;
+}
+
+/*To center the h2 in the header*/
+
+h1 {
+	padding-top: 40px;
+}
+
+/*Delete the text decoration of the list and center it*/
+
+ul {
+	list-style-type: none;
+	background-color: #336699;
+	padding: 25px;
+}
+
+/*Delete the text decoration of the li's and color them*/
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/*make the li's black if I hover them with a mouse*/
+
+a:hover {
+	color: black;
+	font-size: 150%;
+}
+
+/*Display the active tab red and bold*/
+
+a:active {
+	color: red;
+	font-weight: bold;
+}
+
+/*display the list elements in the same line*/
+
+li {
+	display: inline;
+	padding: 10px;
+}
+
+img {
+	width: 100%;
+	height: 700px;
+}
+
+h3 {
+	padding-top: 20px;
+}
+
+.mainparagraph {
+	padding-top: 20px;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+.footertext {
+	padding: 20px;
+}
